@@ -33,8 +33,8 @@ export default function Textutils(props){
           <textarea class="form-control" onChange={handleOnChange} id="exampleFormControlTextarea1"  rows="8"></textarea>
        </div>
 
-        <button className=' btn btn-primary mx-2' onClick={ handleUpClick} >Convert To Uppercase</button>
-        <button className= "btn btn-primary mx-2" onClick={handleloClick}> Convert to Lowercase</button>
+        <button className=' btn btn-primary mx-2 my-2' onClick={ handleUpClick} >Convert To Uppercase</button>
+        <button className= "btn btn-primary mx-2 my-2" onClick={handleloClick}> Convert to Lowercase</button>
         {/* <button className= "btn btn-primary mx-1" onClick={handlelocolourClick}> Convert to Lowercase</button>
         <button className= "btn btn-primary mx-1" onClick={handlelocolourClick}> Convert to Lowercase</button>
         <button className= "btn btn-primary mx-1" onClick={handlelocolourClick}> Convert to Lowercase</button> */}
